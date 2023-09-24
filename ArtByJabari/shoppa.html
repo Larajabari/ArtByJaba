@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPA</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Namn</label>
+          <input type="text" id="fname" name="Namn" placeholder="Ditt namn...">
+      
+          <label for="lname">Tavla</label>
+          <input type="text" id="lname" name="Tavla" placeholder="Namnet på tavlan...">
+
+          <label for="country">Storlek</label>
+          <select id="country" name="country">
+            <option value="australia">30x50cm</option>
+            <option value="canada">70x100cm</option>
+            <option value="usa">100x100cm</option>
+          </select>
+      
+        
+          <label for="subject">Önskemål av specialbeställning</label>
+          <textarea id="subject" name="Önskemål av specialbeställning" placeholder="Meddelande..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Skicka">
+      
+        </form>
+      </div>
+    
+</body>
+</html>
